@@ -8,6 +8,11 @@
   }
 }
 
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
 /* NAV LINK ANIMATION */
 
 .tailwind-nav-link:after {
@@ -23,7 +28,8 @@
   transition: transform 0.25s ease-out;
 }
 
-.tailwind-nav-link:hover:after {
+.tailwind-nav-link:hover:after,
+.tailwind-nav-link:focus:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

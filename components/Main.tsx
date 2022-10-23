@@ -1,10 +1,11 @@
+import Hero from './Hero';
 import Navbar from './Navbar';
 
 const Main = () => {
   return (
-    <main className='h-screen snap-start bg-dark text-white'>
+    <main className='h-screen snap-start bg-dark text-white relative'>
       <Navbar />
-      {/* Hero */}
+      <Hero />
     </main>
   );
 };
