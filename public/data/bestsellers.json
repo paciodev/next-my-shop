@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "image": "https://i.imgur.com/IO0TR0W.png",
+    "name": "Blue T-shirt",
+    "price": 99.99
+  },
+  {
+    "id": 1,
+    "image": "https://i.imgur.com/IO0TR0W.png",
+    "name": "Blue T-shirt",
+    "price": 99.99
+  },
+  {
+    "id": 2,
+    "image": "https://i.imgur.com/IO0TR0W.png",
+    "name": "Blue T-shirt",
+    "price": 99.99
+  },
+  {
+    "id": 3,
+    "image": "https://i.imgur.com/IO0TR0W.png",
+    "name": "Blue T-shirt",
+    "price": 99.99
+  },
+  {
+    "id": 4,
+    "image": "https://i.imgur.com/IO0TR0W.png",
+    "name": "Blue T-shirt",
+    "price": 99.99
+  }
+]

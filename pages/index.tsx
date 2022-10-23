@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Main from '../components/Main';
+import Bestsellers from '../components/Bestsellers';
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
 
 const Home: NextPage = () => {
   return (
@@ -9,13 +11,14 @@ const Home: NextPage = () => {
         <title>Pacio&apos;s clothes store</title>
       </Head>
 
-      <Main />
+      <main className='h-screen snap-start bg-dark text-white relative'>
+        <Navbar />
+        <Hero />
+      </main>
 
-      <div className='h-screen grid place-content-center snap-start'>
-        <h1>COKOLWIEK</h1>
-      </div>
-      {/* Store */}
-      {/* ... */}
+      <section className='min-h-screen snap-start text-dark'>
+        <Bestsellers />
+      </section>
     </div>
   );
 };

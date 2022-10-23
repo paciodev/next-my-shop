@@ -4,14 +4,18 @@ const Hero = () => {
   return (
     <div className='relative flex flex-1 items-center h-screen'>
       <div className='ml-10 -mt-20 relative z-40'>
-        <h2 className='text-accent text-9xl font-black'>PACIO&apos;S</h2>
-        <h1 className='text-9xl font-black'>MEGA STORE</h1>
+        <h2 className='text-accent text-5xl md:text-7xl lg:text-9xl font-black'>
+          PACIO&apos;S
+        </h2>
+        <h1 className='text-5xl md:text-7xl lg:text-9xl font-black'>
+          MEGA STORE
+        </h1>
         <p className='-mt-2 animate-pulse'>
           Test shop - nothing will be delivered
         </p>
       </div>
 
-      <div className='absolute bottom-0 right-0 w-[398px] h-[735px]'>
+      <div className='absolute bottom-0 right-0 hidden lg:block w-[398px] h-[735px]'>
         <Image src='/img/model.png' alt='' layout='fill' objectFit='contain' />
       </div>
 
